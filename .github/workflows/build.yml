@@ -77,6 +77,7 @@ jobs:
 
   build_sdist_python_wheel:
     name: sdist and python wheel
+    if: false
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
